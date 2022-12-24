@@ -175,9 +175,17 @@ h1{
 	padding: 25px;
 }
 
+
+
 .navbar .navbar-nav .nav-link:hover{
 	background-color: black;
 	color: white;
+}
+
+
+.Info-i{
+	height: 1000px;
+	padding: 10px;
 }
 
 /*Responsive*/
@@ -185,4 +193,10 @@ h1{
 	.navbar-brand{
 		display: none;
 	}
+
+	.Info-i{
+	height: 2000px;
+	padding: 50px;
+}
+
 }
